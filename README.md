@@ -33,3 +33,18 @@ This program implements a Paxos voting protocol for Suburban Council President s
 This application allows to work con currently when two councillors send voting proposals at the same time.
 This also works when all the members in councils have immediate responses to voting queries. 
 Moreover this application has gone through test cases to minimize errors that happens when an a system is made implementing distributive features.
+
+This application is an Apache 2.0-licensed, open-source, distributed neural net library written in Java and Paxos algorithm.
+
+## Main Features
+- Members simultaneously sending proposals
+- Members simultaneously accepting proposals
+- Selecting majority vote as Councillor using the given criteria
+
+## How to run
+- Move to your project root folder in command line - cd ~/Project
+- mvn compile
+- mvn exec:java -VotingDemo.mainClass=com.mycompany.PaxosVoting;
+
+
+
